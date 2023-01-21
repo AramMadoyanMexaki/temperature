@@ -1,38 +1,78 @@
 .App {
+  width: 100%;
+  height: 900px;
+}
+
+.main {
+  width: 500px;
+  height: 650px;
+  border-radius: 20px;
+  background-color: #446080;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.temperature {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #000;
+  border-radius: 100%;
+  margin: 0 auto;
   text-align: center;
+  border: 2px solid #eee;
+  background-color: #5171F0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.temperature h1 {
+  padding-top: 40px;
+  font-size: 45px;
+  color: #eee;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.managment {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.plus {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  cursor: pointer;
+  font-size: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.minus {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  cursor: pointer;
+  font-size: 50px;
+}
+
+.veryCold {
+  background: #9BBAFD;
+}
+
+.cold {
+  background: #80ADF0;
+}
+
+.hot {
+  background: #FDB658;
+}
+
+.warm {
+  background: #FD9D48;
+}
+
+.veryHot {
+  background: #FD410D;
+}
+
+
+.veryVeryHot {
+  background: #FD0008
 }
